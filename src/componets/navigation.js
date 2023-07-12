@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import '../app/globals.css'
-import '../app/page.js'
 
 
 export default function Navigation () {
@@ -25,6 +24,9 @@ export default function Navigation () {
             </li>
           <li>
           <Link href="/contact">Contact</Link>
+          </li>
+          <li>
+          <Link href="/about">About</Link>
           </li>
         </ul>
       </section>
