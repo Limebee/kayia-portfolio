@@ -65,7 +65,7 @@ function Gallery () {
             </section>
             <section className="w-full p-1 md:p-2">
               <Image className=''
-              src='/fashion-photo/f6.jpg' alt="woman holding foundation tube with dots of makeup on face"  width={500}
+              src='/fashion-photo/f29.jpg' alt="woman holding foundation tube with dots of makeup on face"  width={500}
               height={500} />
             </section>
             <section className="w-full p-1 md:p-2">
