@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function About (){
     return(
-        <div>
+        <>
             <nav>
             <Navigation />
             </nav>
@@ -23,15 +23,16 @@ export default function About (){
           </h2>
 
           <p class="mt-4 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-            molestiae! Quidem est esse numquam odio deleniti, beatae, magni
-            dolores provident quaerat totam eos, aperiam architecto eius quis
-            quibusdam fugiat dicta.
+          I'm a Brooklyn-based photographer who specializes in fashion and beauty. 
+          You might have seen my work in various editorial spreads for renowned magazines. 
+          Over the years, I have also had the opportunity to collaborate with several esteemed beauty and fashion brands. 
+          Excited to continue my journey in capturing the symbiotic relationship between style and aesthetics through my lens. 
+          Let's create something beautiful together.
           </p>
         </div>
       </div>
       </div>
-      </div>
+      </>
 
     )
 }
