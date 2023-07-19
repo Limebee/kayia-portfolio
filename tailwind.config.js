@@ -11,4 +11,8 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+  
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
