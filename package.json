@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "^14.18.0"
+    "node": ">=16.8.0"
 }, 
   "name": "my-app",
   "version": "0.1.0",
