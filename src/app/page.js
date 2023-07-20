@@ -109,7 +109,7 @@ function Gallery () {
           </section>
           <section className="w-full p-1 md:p-2">
             <Image className=''
-            src='/beauty-photo/b21.jpg' alt="womann removing face mask"  width={500}
+            src='/beauty-photo/b21.jpg' alt="woman removing face mask"  width={500}
             height={500} />
           </section>
           <section className="w-full p-1 md:p-2">
