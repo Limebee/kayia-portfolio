@@ -1,6 +1,8 @@
 import Navigation from '../componets/navigation.js'
 import Image from 'next/image'
 
+
+
 function Gallery () {
   return(
     <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
@@ -149,7 +151,7 @@ function Gallery () {
 
 export default function Home() {
   return(
-    <section>
+    <section data-theme="light">
     <Navigation />
     <Gallery />
     </section>
