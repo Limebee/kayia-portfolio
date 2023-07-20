@@ -4,7 +4,7 @@ import '../app/globals.css'
 
 export default function Navigation () {
     return(
-      <div className="navbar bg-base-100">
+      <div data-theme="light" className="navbar bg-base-100 ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -19,10 +19,10 @@ export default function Navigation () {
         <li><Link href="/about">About</Link></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Kayia Burch</a>
+    <a className="btn btn-ghost normal-case text-xl font-serif">Kayia Burch</a>
   </div>
   <div className="hidden w-full lg:flex">
-    <ul className="menu menu-horizontal px-5">
+    <ul className="menu menu-horizontal px-5 font-serif">
       <li><Link href="/">Overview</Link></li>
       <li><Link href="/fashion">Fashion</Link></li>
       <li><Link href="/beauty">Beauty</Link></li>
