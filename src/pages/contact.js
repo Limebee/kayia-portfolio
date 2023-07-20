@@ -3,15 +3,14 @@ import Link from 'next/link'
 
 
 
-export default function Contact () {
+ function Info() {
     return(
-        <section>
-            <Navigation />
-            <div className="flex justify-center pt-20">
+        <section className='min-h-screen'> 
+            <div className="">
                 <div className=''>
                     <div className=''>
-                        <section className='pb-10 flex justify-center'>
-                            <h1>
+                        <section className='pb-10 pt-10 flex justify-center'>
+                            <h1 className="font-serif text-lg">
                                 Contact
                             </h1>
                         </section>
@@ -22,12 +21,12 @@ export default function Contact () {
                 <section className="gap-4">
                     
                     <div className="p-10">
-                    <h2 className="pb-10">General Inquires</h2>
-                    <Link href="#"><p>info@kayiaburch.com</p></Link>
+                    <h2 className="pb-10 font-serif">General Inquires</h2>
+                    <Link href="#"><p className="font-serif">info@kayiaburch.com</p></Link>
                     </div>
-                    <div className="p-10">
-                        <h2 className="pb-10">Instagram</h2>
-                        <Link href="#"><p>kayiaburch.O</p></Link>
+                    <div className="p-10 border-t-2 border-black">
+                        <h2 className="pb-10 font-serif">Instagram</h2>
+                        <Link href="#"><p className="font-serif">kayiaburch.O</p></Link>
                     </div>
                 
                 </section>
@@ -35,4 +34,15 @@ export default function Contact () {
         </section>
 
     );
+}
+
+
+
+export default function Contact () {
+    return(
+       <section data-theme="light" >
+       <Navigation />
+       <Info />
+       </section>
+    )
 }
