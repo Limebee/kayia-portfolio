@@ -19,7 +19,7 @@ export default function Navigation () {
         <li><Link href="/about">About</Link></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl font-serif">Kayia Burch</a>
+    <a href="/" className="btn btn-ghost normal-case text-xl font-serif">Kayia Burch</a>
   </div>
   <div className="hidden w-full lg:flex">
     <ul className="menu menu-horizontal px-5 font-serif">
