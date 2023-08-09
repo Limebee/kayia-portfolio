@@ -8,3 +8,5 @@ Link to project: https://kayia-portfolio.vercel.app/
 # How It's Made
 
 Tech Used: Next.js, React, Tailwind
+
+# Optimizations
