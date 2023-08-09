@@ -8,5 +8,5 @@ Link to project: https://kayia-portfolio.vercel.app/
 # How It's Made
 
 Tech Used: Next.js, React, Tailwind
-
+This application was made with the full stack framework Next.js and React. Tailwind was used for the styling.
 # Optimizations
