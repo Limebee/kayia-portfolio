@@ -6,7 +6,7 @@ Link to project: https://kayia-portfolio.vercel.app/
 
 
 # How It's Made
-
 Tech Used: Next.js, React, Tailwind
-This application was made with the full stack framework Next.js and React. Tailwind was used for the styling.
+This application was made with the framework Next.js and React. Tailwind was used for the styling.
 # Optimizations
+I would like to improve the loading of the pages. I want to add animations to the photos as they load on the page. When the photos are clicked I want a like a lightbox to show a bigger version of the photo.
